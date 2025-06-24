@@ -8,46 +8,17 @@
                 color: white;
             }
             
-            .rock {     
+            .btn {     
                 background-color: black;
                 margin-left: 20px;
                 border: 3px solid white;
                 border-radius: 100px;
                 padding: 40px;
             }
-            .rock:hover {
+            .btn:hover {
                 cursor: pointer;
             }
-            .rock-emoji {
-                width: 50px;
-            }
-
-            .paper {
-                background-color: black;
-                margin-left: 20px;
-                border: 3px solid white;
-                border-radius: 100px;
-                padding: 40px;
-            }
-            .paper:hover {
-                cursor: pointer;
-            }
-            .paper-emoji {
-                width: 50px;  
-            }
-
-            .scissors {     
-                background-color: black;
-                margin-left: 20px;
-                border: 3px solid white;
-                border-radius: 100px;
-                padding: 40px;
-            }
-            .scissors:hover {
-                cursor: pointer;
-            }
-            .scissors-emoji {
-                height: 50px;
+            .emoji {
                 width: 50px;
             }
         </style>
@@ -58,21 +29,21 @@
     <body>
         <p>Rock Paper Scissors</p>
         
-        <button onclick="game('rock');" class="rock">
+        <button onclick="game('rock');" class="btn">
             <div>
-                <img class="rock-emoji" src="emojis/rock-emoji.png">
+                <img class="emoji" src="emojis/rock-emoji.png">
             </div>
         </button>
 
-        <button onclick="game('paper');" class="paper">
+        <button onclick="game('paper');" class="btn">
             <div>
-                <img class="paper-emoji" src="emojis/paper-emoji.png">
+                <img class="emoji" src="emojis/paper-emoji.png">
             </div>
         </button>
 
-        <button onclick="game('scissors');" class="scissors">
+        <button onclick="game('scissors');" class="btn">
             <div>
-                <img class="scissors-emoji" src="emojis/scissors-emoji.png">
+                <img class="emoji" src="emojis/scissors-emoji.png">
             </div>
         </button>
 
